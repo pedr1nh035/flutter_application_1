@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:flutter_application_1/login.dart';
+import 'package:flutter_application_1/pagina_inicial.dart';
 import 'package:flutter_application_1/pagina_inicial.dart';
 
 class Cadastro extends StatelessWidget {
-  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -80,7 +82,7 @@ class Cadastro extends StatelessWidget {
                 color: Colors.white,
               ),
             ),
-             SizedBox(
+            SizedBox(
               height: 20,
             ),
             TextFormField(
@@ -126,7 +128,7 @@ class Cadastro extends StatelessWidget {
               ),
             ),
             SizedBox(
-              height: 30,
+              height: 10,
             ),
             Container(
               height: 60,

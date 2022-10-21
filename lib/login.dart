@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/pagina_inicial.dart';
+import 'package:flutter_application_1/pagina_inicial.dart';
 import 'package:flutter_application_1/restauracao.dart';
 
 import 'cadastro.dart';
@@ -137,7 +138,7 @@ class LoginPagina extends StatelessWidget {
             SizedBox(
               height: 10,
             ),
-            SizedBox(
+            Container(
               height: 40,
               child: TextButton(
                 child: Text(
