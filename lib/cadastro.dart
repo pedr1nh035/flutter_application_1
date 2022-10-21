@@ -128,7 +128,7 @@ class Cadastro extends StatelessWidget {
               ),
             ),
             SizedBox(
-              height: 10,
+              height: 30,
             ),
             Container(
               height: 60,
